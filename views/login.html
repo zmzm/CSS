@@ -1,0 +1,14 @@
+<head>
+    <link rel="stylesheet" href="css/loginForm.css">
+</head>
+<form id="login" ng-submit="vm.login()" role="form">
+    <h1>Login Form</h1>
+    <fieldset id="inputs">
+        <input id="username" name="username" type="text" ng-model="vm.username" placeholder="Name" autofocus
+               required>
+        <input id="password" name="password" type="text" ng-model="vm.password" placeholder="Password"/>
+    </fieldset>
+    <fieldset id="actions">
+        <input type="submit" id="submit" value="Enter">
+    </fieldset>
+</form>

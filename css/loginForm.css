@@ -21,7 +21,7 @@ body
     background-image: -ms-linear-gradient(top, #fff, #eee);
     background-image: -o-linear-gradient(top, #fff, #eee);
     background-image: linear-gradient(top, #fff, #eee);  
-    height: 240px;
+    height: 300px;
     width: 400px;
     margin: -150px 0 0 -230px;
     padding: 30px;
@@ -70,7 +70,6 @@ body
     box-shadow: 0 0 0 1px #fff;
 }
 
-/*--------------------*/
 
 h1
 {
@@ -85,9 +84,6 @@ h1
 }
 
 
-
-/*--------------------*/
-
 fieldset
 {
     border: 0;
@@ -95,7 +91,6 @@ fieldset
     margin: 0;
 }
 
-/*--------------------*/
 
 #inputs input
 {
@@ -203,8 +198,6 @@ fieldset
     line-height: 35px;
     margin-left: 10px;
 }
-
-/*--------------------*/
 
 #back
 {
